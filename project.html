@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 70px;
+            height:70px;
+            margin-left: 40px;
+        }
+        b{
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: inline-block;
+            transform: translate(1em,-1em);
+            letter-spacing: 3px;
+        }
+        .search_line{
+            font-size: 20px;
+            display: inline-block;
+            transform: translate(3em,-1.3em);
+            padding-right: 700px;
+            padding-left: 7px;
+            padding-bottom: 7px;
+            padding-top: 7px;
+            border-radius: 50px;
+        }
+        .header{
+            background-color: rgb(180, 100, 30);
+            min-width: 540px;
+        }
+        .classes{
+            display: inline-block;
+            background-color: rgb(215, 215, 215);
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-bottom: 100%;
+        }
+        .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven{
+            border: solid, 3px, rgb(180, 100, 30);
+            border-radius: 50px;
+            padding: 5px 50px;
+            text-align: right;
+            margin: 3px;
+            font-size: 24px;
+        }
+        .classes{
+            text-align: center;
+        }
+        .one:active,.two:active,.three:active,.four:active,.five:active,.six:active,.seven:active,.eight:active,.nine:active,.ten:active,.eleven:active{
+            background-color: grey;
+        }
+        footer{
+            background-color: orange;
+            font-size: 12px;
+            padding: 5px;
+        }
+        .info{
+            margin-left: 9%;
+        }
+        .info_1{
+            display: inline-block;
+            transform: translate(40em,-3.5em);
+        }
+        a{
+             display: inline-block;
+            transform: translate(35em,-2.5em);
+            font-size: 20px;
+        }
+        .search_img{
+            width: 40px;
+            height: 30px;
+            display: inline-block;
+            transform: translate(-1.6em, -1.2em);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="">
+        <b>ИНФОБУК.RU</b>
+        <input class="search_line" type="text" placeholder="Введите ваш запрос">
+        <img class="search_img" src="search.png" alt="">
+    </div>
+    <div class="classes">
+        <h1 class="glav_class">Классы</h1>
+        <input class="one" type="button" value="1 класс"><br>
+        <input class="two" type="button" value="2 класс"><br>
+        <input class="three" type="button" value="3 класс"><br>
+        <input class="four" type="button" value="4 класс"><br>
+        <input class="five" type="button" value="5 класс"><br>
+        <input class="six" type="button" value="6 класс"><br>
+        <input class="seven" type="button" value="7 класс"><br>
+        <input class="eight" type="button" value="8 класс"><br>
+        <input class="nine" type="button" value="9 класс"><br>
+        <input class="ten" type="button" value="10 класс"><br>
+        <input class="eleven" type="button" value="11 класс">
+    </div>
+    <footer>
+        <h1 class="info">Остались вопросы? Свяжитесь с нами!<br>+7---------- infobook@mail.ru</h1>
+        <h1 class="info_1">Все права защищены</h1>
+        <a href="http://google.com">Пользовательское соглашение</a>
+    </footer>
+</body>
+</html>
