@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
+       
+        
+        
         img{
             width: 70px;
             height:70px;
@@ -36,7 +40,7 @@
             background-color: rgb(215, 215, 215);
             padding-left: 14px;
             padding-right: 14px;
-            padding-bottom: 100%;
+            padding-bottom: 50%;
         }
         .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven{
             border: solid, 3px, rgb(180, 100, 30);
@@ -49,7 +53,7 @@
         .classes{
             text-align: center;
         }
-        .one:active,.two:active,.three:active,.four:active,.five:active,.six:active,.seven:active,.eight:active,.nine:active,.ten:active,.eleven:active{
+        .glav_class:active{
             background-color: grey;
         }
         footer{
@@ -57,7 +61,9 @@
             font-size: 12px;
             padding: 5px;
         }
+        
         .info{
+            padding: 20px;
             margin-left: 9%;
         }
         .info_1{
@@ -75,6 +81,19 @@
             display: inline-block;
             transform: translate(-1.6em, -1.2em);
         }
+        .otstyp{
+            margin-left: 9%;
+            padding: 30px;
+        } 
+        .otstyp{
+            margin-top: 2%;
+        }
+        .main{
+            transform: translateX(50%);
+        }
+        .main:active{
+            
+        }
     </style>
 </head>
 <body>
@@ -82,7 +101,7 @@
         <img src="logo.png" alt="">
         <b>ИНФОБУК.RU</b>
         <input class="search_line" type="text" placeholder="Введите ваш запрос">
-        <img class="search_img" src="search.png" alt="">
+        <img class="search_img" src="searching.png" alt="">
     </div>
     <div class="classes">
         <h1 class="glav_class">Классы</h1>
@@ -98,10 +117,14 @@
         <input class="ten" type="button" value="10 класс"><br>
         <input class="eleven" type="button" value="11 класс">
     </div>
+    <div class="main">здесь будут учебники</div>
     <footer>
-        <h1 class="info">Остались вопросы? Свяжитесь с нами!<br>+7---------- infobook@mail.ru</h1>
+        <h1 class="info">Остались вопросы? Свяжитесь с нами!<br></h1>
+        <h1 class="otstyp">
+            +79114107378 infobook@mail.ru
+        </h1>
         <h1 class="info_1">Все права защищены</h1>
-        <a href="http://google.com">Пользовательское соглашение</a>
+        <a href="http://google.com" class="otstyp_2">Пользовательское соглашение</a>
     </footer>
 </body>
 </html>
