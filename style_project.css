@@ -1,0 +1,84 @@
+        img{
+            width: 70px;
+            height:70px;
+            margin-left: 40px;
+        }
+        b{
+            font-size: 25px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            display: inline-block;
+            transform: translate(1em,-1em);
+            letter-spacing: 3px;
+        }
+        .search_line{
+            font-size: 20px;
+            display: inline-block;
+            transform: translate(3em,-1.3em);
+            padding-right: 700px;
+            padding-left: 7px;
+            padding-bottom: 7px;
+            padding-top: 7px;
+            border-radius: 50px;
+        }
+        .header{
+            background-color: rgb(180, 100, 30);
+            min-width: 540px;
+        }
+        .classes{
+            display: inline-block;
+            background-color: rgb(215, 215, 215);
+            padding-left: 14px;
+            padding-right: 14px;
+            padding-bottom: 100%;
+        }
+        .one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten,.eleven{
+            border: solid, 3px, rgb(180, 100, 30);
+            border-radius: 50px;
+            padding: 5px 50px;
+            text-align: right;
+            margin: 10px;
+            font-size: 24px;
+            cursor: pointer;
+            display: block;
+        }
+        .classes{
+            text-align: center;
+        }
+        .one:active,.two:active,.three:active,.four:active,.five:active,.six:active,.seven:active,.eight:active,.nine:active,.ten:active,.eleven:active{
+            background-color: grey;
+        }
+        footer{
+            background-color: orange;
+            font-size: 12px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+        }
+        .info{
+            margin-left: 9%;
+            display: block;
+            margin:5px;
+            padding-left: 200px;
+        }
+        .info_1{
+            font-size: 12px;
+            display: block;
+            margin:5px;
+            padding-left: 200px;
+            margin-right: 9%;
+            
+        }
+        a{
+            
+            font-size: 20px;
+        }
+        .search_img{
+            width: 40px;
+            height: 30px;
+            display: inline-block;
+            transform: translate(-1.6em, -1.2em);
+        }
+        .book{
+            width: 200px;
+            height: 300px;
+        }
